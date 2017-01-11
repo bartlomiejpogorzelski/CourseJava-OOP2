@@ -21,5 +21,7 @@ public class CourseJavaOOP2 {
         System.out.println(sceleton.hitPoints);
         System.out.println(sceleton.speed);
         sceleton.Attack();
+        Sceleton sceleton2= new Sceleton(20,44, "dak");
+        sceleton2.Attack();
     }
 }
