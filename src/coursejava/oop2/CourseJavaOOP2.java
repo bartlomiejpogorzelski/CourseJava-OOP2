@@ -20,8 +20,8 @@ public class CourseJavaOOP2 {
         Sceleton sceleton= new Sceleton(33,99);
         System.out.println(sceleton.hitPoints);
         System.out.println(sceleton.speed);
-        sceleton.Attack();
+        sceleton.attack();
         Sceleton sceleton2= new Sceleton(20,44, "dak");
-        sceleton2.Attack();
+        sceleton2.attack();
     }
 }

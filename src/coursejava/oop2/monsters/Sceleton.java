@@ -7,7 +7,7 @@ public class Sceleton extends Monster {
     @Override
     public void attack()
     {
-        
+        System.out.println("I'm method from sceleton"); 
     }
     public Sceleton()
     {
