@@ -17,11 +17,8 @@ public class CourseJavaOOP2 {
 //        System.out.println(monster.hitPoints);
 //        System.out.println(monster.speed);
 //        
-        Sceleton sceleton= new Sceleton(33,99);
-        System.out.println(sceleton.hitPoints);
-        System.out.println(sceleton.speed);
-        sceleton.attack();
-        Sceleton sceleton2= new Sceleton(20,44, "dak");
+        
+        Sceleton sceleton2= new Sceleton();
         sceleton2.attack();
     }
 }

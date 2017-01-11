@@ -7,6 +7,7 @@ public class Sceleton extends Monster {
     @Override
     public void attack()
     {
+        super.attack();//if we want use method attack() from class parent
         System.out.println("I'm method from sceleton"); 
     }
     public Sceleton()
