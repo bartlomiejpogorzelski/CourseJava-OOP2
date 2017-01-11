@@ -18,7 +18,7 @@ public class Monster //base class or super class
         this.speed=speed;
         System.out.println("i'm constructor from Monster class with two arguments");
     }
-    public void Attack()
+    public void attack()
     {
         System.out.println("I'm attacking from monster class"); 
     }

@@ -4,7 +4,11 @@ package coursejava.oop2.monsters;
 
 
 public class Sceleton extends Monster {
-    
+    @Override
+    public void attack()
+    {
+        
+    }
     public Sceleton()
     {
         System.out.println("I'm from empty sceleton constructor");
