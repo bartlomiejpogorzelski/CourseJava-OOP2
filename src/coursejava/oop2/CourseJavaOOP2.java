@@ -23,6 +23,14 @@ public class CourseJavaOOP2 {
         Sceleton s = new Sceleton();
         Zombie z = new Zombie();    // poly -many, morphism- form
         
+        Monster m2= new Zombie();
+        m2=new Sceleton();
+        
+        CourseJavaOOP2.nazwa(new Zombie());
+    }
+    
+    static void nazwa(Monster m3)
+    {
         
     }
 }
