@@ -6,7 +6,7 @@ package coursejava.oop2.monsters;
 public class Sceleton extends Monster {
     @Override
     public void attack()
-    {
+    {                                   //this method is overloaded by method(attack(String type...)
         System.out.println("Override");
     }
     public void attack(String typeOfAttack)

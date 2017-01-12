@@ -18,7 +18,6 @@ public class CourseJavaOOP2 {
 //        System.out.println(monster.speed);
 //        
         
-        Sceleton sceleton2= new Sceleton();
-        sceleton2.attack();
+
     }
 }
