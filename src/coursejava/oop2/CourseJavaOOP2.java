@@ -4,6 +4,7 @@ package coursejava.oop2;
 //Packages
 import coursejava.oop2.monsters.Monster;
 import coursejava.oop2.monsters.Sceleton;
+import coursejava.oop2.monsters.Zombie;
 
 
 public class CourseJavaOOP2 {
@@ -18,6 +19,10 @@ public class CourseJavaOOP2 {
 //        System.out.println(monster.speed);
 //        
         
-
+        Monster m = new Monster();
+        Sceleton s = new Sceleton();
+        Zombie z = new Zombie();    // poly -many, morphism- form
+        
+        
     }
 }
