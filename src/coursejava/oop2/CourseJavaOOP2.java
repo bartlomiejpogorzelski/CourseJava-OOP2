@@ -20,8 +20,10 @@ public class CourseJavaOOP2 {
 //        
         
         Monster m = new Sceleton();
-        m.attack();
-        m.test();
+        ((Sceleton)m).test2(); // it's downcasting / now we have access to test2()
+        
+//        m.attack();
+//        m.test();
         //m.test2(); //This is don't work
         
         // when "m." we have access only to the class Monster 
