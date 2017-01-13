@@ -22,6 +22,7 @@ public class CourseJavaOOP2 {
         Monster m = new Sceleton();
         m.attack();
         m.test();
+        m.test2(); //This is don't work
     }
     
     static void nazwa(Monster m3)

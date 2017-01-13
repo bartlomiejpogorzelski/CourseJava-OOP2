@@ -39,4 +39,9 @@ public class Sceleton extends Monster {
         System.out.println("I'm from Sceleton constructor with 3 arguments");
     }
     
+    public void test2()
+    {
+        System.out.println("TEST-2");
+    }
+    
 }
