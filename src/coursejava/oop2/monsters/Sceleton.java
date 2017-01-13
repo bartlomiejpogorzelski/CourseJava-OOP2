@@ -43,5 +43,13 @@ public class Sceleton extends Monster {
     {
         System.out.println("TEST-2");
     }
+
+    @Override
+    void description() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
+    
+   
+  
 }

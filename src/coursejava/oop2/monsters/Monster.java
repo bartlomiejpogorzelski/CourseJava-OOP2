@@ -2,7 +2,7 @@
 package coursejava.oop2.monsters;
 
 
-public class Monster //base class or super class
+public abstract class Monster //base class or super class
 {
     public double hitPoints;
     public double speed;
@@ -27,4 +27,6 @@ public class Monster //base class or super class
     {
         System.out.println("TEST");
     }
+    
+    abstract void description(); //abstract don't have a body
 }
