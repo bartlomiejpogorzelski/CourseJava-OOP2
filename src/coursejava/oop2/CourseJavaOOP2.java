@@ -22,7 +22,9 @@ public class CourseJavaOOP2 {
         Monster m = new Sceleton();
         m.attack();
         m.test();
-        m.test2(); //This is don't work
+        //m.test2(); //This is don't work
+        
+        // when "m." we have access only to the class Monster 
     }
     
     static void nazwa(Monster m3)
