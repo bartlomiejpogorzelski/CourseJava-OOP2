@@ -19,14 +19,9 @@ public class CourseJavaOOP2 {
 //        System.out.println(monster.speed);
 //        
         
-        Monster m = new Monster();
-        Sceleton s = new Sceleton();
-        Zombie z = new Zombie();    // poly -many, morphism- form
-        
-        Monster m2= new Zombie();
-        m2=new Sceleton();
-        
-        CourseJavaOOP2.nazwa(new Zombie());
+        Monster m = new Sceleton();
+        m.attack();
+        m.test();
     }
     
     static void nazwa(Monster m3)

@@ -22,4 +22,9 @@ public class Monster //base class or super class
     {
         System.out.println("I'm attacking from monster class"); 
     }
+    
+    public void test()
+    {
+        System.out.println("TEST");
+    }
 }
