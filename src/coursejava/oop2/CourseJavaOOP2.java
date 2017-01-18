@@ -16,6 +16,7 @@ public class CourseJavaOOP2 {
       {
           if( people[i] instanceof Person)
               people[i].description();
+          System.out.println("fff");
       }
     }
 }
