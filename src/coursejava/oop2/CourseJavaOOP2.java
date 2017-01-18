@@ -14,8 +14,8 @@ public class CourseJavaOOP2 {
       
       for (int i=0; i<people.length; i++)
       {
-          if( people[i] instanceof Student)
-              people[i].description();
+          if( people[i] instanceof Employee)
+              ((Employee)people[i]).work(); //we must downcasting if we want to have access to work() method
          
       }
     }
@@ -52,7 +52,7 @@ public class CourseJavaOOP2 {
             System.out.println("surname = " + surname);
             System.out.println("salary:"+salary);
         }
-        
+        void work(){ System.out.println("I'm working");}
     }
     
     class Student extends Person
