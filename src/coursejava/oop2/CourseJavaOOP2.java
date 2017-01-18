@@ -8,7 +8,7 @@ public class CourseJavaOOP2 {
    
     //Person person = new Person(); // this don't work
     // Person person = new Employee("s", "a", 1);
-      Person people[] = new Person[2];
+      Person people[] = new Person[3];
       people[0]= new Employee("Arkadiusz", "wlodarczyk", 1000);
       people[1]= new Student("ola", "wlodarczyk");
       
