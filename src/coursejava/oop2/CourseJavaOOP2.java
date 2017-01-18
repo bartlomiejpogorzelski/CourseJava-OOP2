@@ -8,11 +8,12 @@ public class CourseJavaOOP2 {
    
     //Person person = new Person(); // this don't work
     // Person person = new Employee("s", "a", 1);
-      Person people[] = new Employee[2];
+      Person people[] = new Person[2];
       people[0]= new Employee("Arkadiusz", "wlodarczyk", 1000);
-      people[1]= new Employee("ola", "wlodarczyk", 1100);
+      people[1]= new Student("ola", "wlodarczyk");
       
       people[0].description();
+      people[1].description();
     }
 }
     abstract class Person 
@@ -45,6 +46,7 @@ public class CourseJavaOOP2 {
         void description() {
             System.out.println("name = " + name);
             System.out.println("surname = " + surname);
+            System.out.println("salary:"+salary);
         }
         
     }
