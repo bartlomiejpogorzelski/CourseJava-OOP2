@@ -11,6 +11,8 @@ public class CourseJavaOOP2 {
       Person people[] = new Employee[2];
       people[0]= new Employee("Arkadiusz", "wlodarczyk", 1000);
       people[1]= new Employee("ola", "wlodarczyk", 1100);
+      
+      people[0].description();
     }
 }
     abstract class Person 
