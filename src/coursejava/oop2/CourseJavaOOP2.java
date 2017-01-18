@@ -55,7 +55,8 @@ public class CourseJavaOOP2 {
         }
         @Override
         void description() {
-            
+            System.out.println("name = " + name);
+            System.out.println("surname = "+ surname);
         }
         
     }
