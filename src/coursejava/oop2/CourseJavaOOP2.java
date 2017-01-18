@@ -12,8 +12,10 @@ public class CourseJavaOOP2 {
       people[0]= new Employee("Arkadiusz", "wlodarczyk", 1000);
       people[1]= new Student("ola", "wlodarczyk");
       
-      people[0].description();
-      people[1].description();
+      for (int i=0; i<people.length; i++)
+      {
+      people[i].description();
+      }
     }
 }
     abstract class Person 
