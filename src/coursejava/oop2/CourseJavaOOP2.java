@@ -14,7 +14,7 @@ public class CourseJavaOOP2 {
       
       for (int i=0; i<people.length; i++)
       {
-          if( people[i] instanceof Person)
+          if( people[i] instanceof Employee)
               people[i].description();
           else
           break;
