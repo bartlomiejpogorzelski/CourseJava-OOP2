@@ -10,6 +10,9 @@ public class CourseJavaOOP2 {
    
     final double PI= 3.14;
     //PI= 5.55; //we cannot change the value beacuse is use final
+    Employee e= new Employee();
+        System.out.println(e.dateOfEmployment);
+            
     }
 }
     abstract class Person 
@@ -19,8 +22,17 @@ public class CourseJavaOOP2 {
     
     class Employee extends Person
     {
-        //final Date dateOfEmployment //only this is bad beacuse with "final" it must be initialize
-        final Date dateOfEmployment = new Date();
+        final Date dateOfEmployment;
+        
+        Employee()
+        {
+            this.dateOfEmployment= new Date(); 
+        }
+        
+        Employee(Date d)
+        {
+         this.dateOfEmployment=d;
+        }
         
         
         
