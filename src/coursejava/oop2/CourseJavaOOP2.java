@@ -18,3 +18,11 @@ interface nameOfInterfaces
 }   
 
 //implements means you want to take after all behaviors from the inteface 
+
+class Employee implements nameOfInterfaces
+{
+    @Override
+    public void sample() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+}
