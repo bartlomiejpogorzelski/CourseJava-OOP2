@@ -7,6 +7,9 @@ public class CourseJavaOOP2 {
 
     public static void main(String[] args) {
    
+        nameOfInterfaces a = new Employee();
+        
+        Object b= new Employee();
     }
 }
     
