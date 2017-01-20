@@ -8,7 +8,8 @@ public class CourseJavaOOP2 {
     public static void main(String[] args) {
    
         nameOfInterfaces a = new Employee();
-        
+        // a.getSomething() // don't have access to method getSomoething in class Employee
+        ((Employee)a).getSomething(); // now we have access 
         Object b= new Employee();
     }
 }
@@ -28,6 +29,7 @@ class Employee implements nameOfInterfaces, otherOfInterface //we can implemets 
     public void sample() {
         
     }
+    void getSomething(){}
 }
 interface otherOfInterface
 {
